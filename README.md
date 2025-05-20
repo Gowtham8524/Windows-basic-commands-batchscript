@@ -22,44 +22,55 @@ Execute the necessary commands/batch file for the desired output.
 
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
-Create a directory named "my-folder"
+
 
 ## COMMAND AND OUTPUT
 
-Remove the directory "my-folder"
+```
+mkdir %userprofile%\Desktop\MyLab
+```
+
+## COMMAND AND OUTPUT
+```
+cd %userprofile%\Desktop\MyLab
+```
+
+
+## COMMAND AND OUTPUT
+```
+dir %userprofile%\Desktop\MyLab
+```
+
+
+## COMMAND AND OUTPUT
+```
+mkdir %userprofile%\Desktop\Backup
+
+copy MyFile.txt %userprofile%\Desktop\Backup
+```
+
+## COMMAND AND OUTPUT
+```
+mkdir %userprofile%\Desktop\Backup
+
+copy MyFile.txt %userprofile%\Desktop\Backup
+```
 
 ## COMMAND AND OUTPUT
 
-
-Create the file Rose.txt
-
+```
+mv Myfile.txt %userprofile%\Documents
+```
 ## COMMAND AND OUTPUT
 
 
-Create the file hello.txt using echo and redirection
+```
+@echo off
+mkdir %userprofile%\Desktop\DocBackup
+copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
+echo Backup completed successfully!
+```
 
-## COMMAND AND OUTPUT
-
-Copy the file hello.txt into the file hello1.txt
-
-## COMMAND AND OUTPUT
-
-Remove the file hello1.txt
-
-## COMMAND AND OUTPUT
-
-List out the file hello1.txt in the current directory
-
-## COMMAND AND OUTPUT
-
-List out all the associated file extensions 
-
-## COMMAND AND OUTPUT
-
-
-Compare the file hello.txt and rose.txt
-
-## COMMAND AND OUTPUT
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
@@ -69,6 +80,7 @@ Create a batch file named on the desktop. The batch file need to have a variable
 
 
 ## OUTPUT
+![444900815-fd2d326c-f1ba-4dad-b9d7-c55bb2ec299d](https://github.com/user-attachments/assets/2de963c7-0393-42ab-b567-61b16d5eb808)
 
 
 
@@ -83,6 +95,8 @@ Handle invalid inputs for the continuation prompt (Y/N) gracefully.
 
 
 ## OUTPUT
+![444900999-e4bfc3ed-8a90-45d6-88ea-d52c4b521802](https://github.com/user-attachments/assets/00f10d93-375b-4212-86a0-bab0be319625)
+![444901010-e67aba7c-98a1-4c49-9c0d-db70774b1955](https://github.com/user-attachments/assets/f47fae8d-f374-4801-9b64-fbeff91ce8ab)
 
 
 
@@ -94,6 +108,7 @@ Write a batch file that uses a FOR loop to iterate over a sequence of numbers (1
 
 ## OUTPUT
 
+![444901093-2636f608-2fe4-4a37-a54f-8dfd66a489e1](https://github.com/user-attachments/assets/ad368ce6-9713-4343-b5bf-676ae5f28982)
 
 
 
@@ -106,6 +121,8 @@ Use pause to keep the command window open after displaying the message.
 Expected Output (if the file exists):
 
 ## OUTPUT
+![444901134-705228ff-697e-426f-a46f-6382d2274d6e](https://github.com/user-attachments/assets/257bf246-c5d1-435c-905e-f11ef91adf05)
+![444901161-110411d6-84d1-42de-acf1-8bec4af23015](https://github.com/user-attachments/assets/37a612b7-ed6c-4f24-9ccb-07d38e7a790c)
 
 
 Write a batch script that displays a simple menu with three options:
@@ -116,7 +133,9 @@ The script should repeatedly display the menu until the user chooses to exit. Us
 
 
 ## OUTPUT
+![444901291-a84632ba-76b2-462b-8dfe-11b12422a999](https://github.com/user-attachments/assets/9e5711c5-178d-449e-8e29-21838b60757c)
 
+![444902919-159d2f85-38cb-4a97-be4f-0d4b0eb6fe79](https://github.com/user-attachments/assets/eb49d8ee-76b5-47fd-8fe8-323d614ef0d6)
 
 
 # RESULT:
